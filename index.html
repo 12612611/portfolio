@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nora Vale — creative developer and product designer crafting bright digital experiences." />
+    <title>Nora Vale — Creative developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Nora Vale home"><span>NV</span><b>Nora Vale</b></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme"><span></span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Independent creative developer</p>
+          <h1 id="hero-title">I make the internet feel <em>more human.</em></h1>
+          <p class="hero-intro">I’m Nora, a product designer and front-end developer based in Montreal. I turn complex ideas into clear, tactile digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See the work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal reveal-delay" aria-label="Abstract portrait collage">
+          <div class="art-note">Currently<br /><strong>available</strong><br />for select projects</div>
+          <div class="sun"></div>
+          <div class="portrait-frame"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Portrait of a woman looking toward the camera" /></div>
+          <div class="art-sticker">✳<br /><small>good ideas<br />need room</small></div>
+          <div class="art-caption">45° 31′ N<br />73° 34′ W</div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Services">
+        <div class="ticker-track"><span>Strategy</span><i>✳</i><span>Brand systems</span><i>✳</i><span>Web design</span><i>✳</i><span>Creative code</span><i>✳</i><span>Strategy</span><i>✳</i><span>Brand systems</span><i>✳</i><span>Web design</span><i>✳</i><span>Creative code</span><i>✳</i></div>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal"><p class="eyebrow">01 / Selected work</p><h2 id="work-title">A few things<br /><em>worth sharing.</em></h2><p class="section-description">A selection of collaborations, experiments, and shipped products from the last few years.</p></div>
+        <div class="project-grid">
+          <article class="project project-large reveal">
+            <div class="project-visual visual-orbit"><span class="orbit-label">A calmer<br />way to work</span><div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-core">melo<span>•</span></div></div>
+            <div class="project-meta"><div><p class="project-type">Product / 2024</p><h3>Melo — space for focus</h3></div><button class="project-arrow" type="button" data-project="Melo">↗</button></div>
+          </article>
+          <article class="project reveal reveal-delay-two">
+            <div class="project-visual visual-yellow"><div class="yellow-card">FIELD<br /><em>notes</em><span>02—24</span></div><div class="scribble">for curious<br />people</div></div>
+            <div class="project-meta"><div><p class="project-type">Editorial / 2024</p><h3>Field Notes Journal</h3></div><button class="project-arrow" type="button" data-project="Field Notes">↗</button></div>
+          </article>
+          <article class="project reveal reveal-delay-three">
+            <div class="project-visual visual-blue"><div class="blue-type">NORTH<br /><span>STAR</span></div><div class="blue-line"></div><p>finding your<br />true north</p></div>
+            <div class="project-meta"><div><p class="project-type">Brand / 2023</p><h3>Northstar Studio</h3></div><button class="project-arrow" type="button" data-project="Northstar">↗</button></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="about-mark">N<span>V</span></div>
+        <div class="about-copy reveal"><p class="eyebrow">02 / A little context</p><h2 id="about-title">Design with a pulse,<br /><em>code with a point of view.</em></h2><p>I care about the space where usefulness meets delight. My work lives between sharp product thinking and the weird, wonderful potential of the browser.</p><p>Over the past decade I’ve helped early teams find their voice, launched products used by millions, and made a lot of tiny animations that nobody asked for but everybody noticed.</p><a class="text-link" href="#contact">More about me <span aria-hidden="true">→</span></a></div>
+        <div class="about-facts reveal reveal-delay"><div><strong>10</strong><span>years making<br />things online</span></div><div><strong>28</strong><span>brands given<br />a pulse</span></div><div><strong>05</strong><span>countries I’ve<br />worked from</span></div></div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel reveal"><p class="eyebrow">03 / Your turn</p><h2 id="contact-title">Have a good<br /><em>one in mind?</em></h2><p>Tell me what you’re thinking. The odd, ambitious, not-quite-figured-out ideas are usually my favorite.</p><a class="contact-email" href="mailto:hello@noravale.studio">hello@noravale.studio <span>↗</span></a></div>
+        <div class="contact-side reveal reveal-delay"><span class="side-star">✳</span><p>Available for<br />freelance projects<br />this autumn.</p><span class="side-location">MTL / 2026</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><span>© 2026 Nora Vale</span><span>Made with curiosity + good coffee</span><a href="#top">Back to top ↑</a></footer>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-content"><button class="modal-close" type="button" aria-label="Close project details">×</button><p class="eyebrow">Project note</p><h2 id="modal-title"></h2><p class="modal-copy">A case study is coming soon. For now, say hello and I’ll share the thinking, process, and messy middle behind this project.</p><a class="button button-primary" href="mailto:hello@noravale.studio">Ask me about it <span>↗</span></a></div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
