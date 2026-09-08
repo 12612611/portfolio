@@ -6,10 +6,10 @@ const modalClose = document.querySelector('.modal-close');
 
 const setTheme = (isDark) => {
   body.classList.toggle('dark', isDark);
-  localStorage.setItem('anna-theme', isDark ? 'dark' : 'light');
+  localStorage.setItem('nora-theme', isDark ? 'dark' : 'light');
 };
 
-setTheme(localStorage.getItem('anna-theme') === 'dark');
+setTheme(localStorage.getItem('nora-theme') === 'dark');
 themeToggle.addEventListener('click', () => setTheme(!body.classList.contains('dark')));
 
 document.querySelectorAll('[data-project]').forEach((button) => {
